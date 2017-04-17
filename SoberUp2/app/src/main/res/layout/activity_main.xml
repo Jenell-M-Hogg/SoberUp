@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.amjh.soberup.MainActivity">
 
+<<<<<<< HEAD
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -70,5 +71,19 @@
             tools:text="Sex" />
     </GridLayout>
 
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/myTextView1" />
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="85dp" />
+>>>>>>> origin/master
 
 </RelativeLayout>
